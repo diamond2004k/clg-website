@@ -1,0 +1,113 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.mid-left {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 60px; 
+  width: 30%;
+}
+.down-left{
+  position:absolute;
+  top:90px;
+  left: 16px;
+  font-size: xx-large;
+}
+.myDiv {
+  position: absolute;
+  right:0;
+  height: 48%;
+  width:20%;
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+.centre
+{
+  width: 77%;
+}
+.rv-logo{
+  position: absolute;
+  top: 20px;
+  left: 87%;
+  /*image-rendering: 10px; 
+  width:30%;*/
+}
+.rv-logo1{
+  position: absolute;
+  top: 50px;
+  left: 70%;
+  /*image-rendering: 10px; 
+  width:30%;*/
+}
+.rv-logo2{
+  position: absolute;
+  top: 23px;
+  left: 63%;
+  /*image-rendering: 10px; 
+  width:30%;*/
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-whatsapp{
+  background:rgb(9, 232, 54);
+  color: rgb(240, 246, 240);
+}
+#footer .copyright {
+  text-align: center;
+}
+
+.myDiv {
+ /* width:100%;
+  height:100%;
+  color:black;*/
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: #A0DDFF;}
+  25%{background-color:#767B91;}
+  50%{background-color:#F4989C;}
+  75%{background-color:#E7EFC5;}
+  100% {background-color: #B0F2B4;}
+}
